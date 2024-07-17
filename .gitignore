@@ -1,0 +1,11 @@
+__pycache__/
+.idea
+# virtualenv
+venv/
+.venv
+env/
+ENV/
+
+
+# dotenv
+.env
