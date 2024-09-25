@@ -37,6 +37,9 @@ def printer():
         # printer.text("title6", font_config=font)
     return 'Success'
 
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
 
 if __name__ == '__main__':
     app.run(debug=True)
