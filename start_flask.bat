@@ -13,3 +13,4 @@ if not exist installed_packages.txt (
 set FLASK_APP=app.py
 set FLASK_ENV=development
 start python -m flask run --no-reload
+pause
